@@ -1,0 +1,87 @@
+
+/* body {
+    background: linear-gradient(-45deg, #0f0f0f, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+/* 
+body::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+body::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  } */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar button{
+    background: transparent;
+    border: solid 2px white;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+}
+
+.navbar a{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidetwo{
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-around;
+    width: 300px;
+}
+
+/* .imagep{
+    width: 50px;
+    height: 45px;
+} */
+
+.imagep img{
+    width: 65px;
+    height: 60px;
+}
+
+.log{
+    display: flex;
+    align-items: center;
+}

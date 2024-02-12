@@ -1,0 +1,142 @@
+.icons{
+    font-size: 40px;
+    margin-top: 40px;
+    display: flex;
+    width: 120%;
+    flex-direction: column;
+    height: 55%;
+}
+.css3-notification {
+  color: white;
+  font-weight: bold;
+}
+.icons h2{
+    font-size: 25px;
+    color: white;
+}
+
+.way{
+    display: flex;
+    height: 70%;
+    width: 80%;
+    /* margin-top: 20px; */
+    justify-content: space-evenly;
+}
+
+.conta{
+    display: flex;
+    background-color: rgb(0,205,172);
+    width: 100%;
+    height: 100vh;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    width: 100%;
+}
+
+.right{
+    width: 20%;
+    background-color: violet;
+}
+
+.left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.inner{
+    background-color: rgb(0,42,48);
+    background-attachment: fixed;
+    background-position: center;
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow:  0px 50px 100px rgb(10,110,113);
+    margin: 20px;
+}
+.leftcontent{
+    background-color: transparent;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+.cards{
+    background-color: transparent;
+    display: flex;
+    width: 300%;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cards h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 5px;
+}
+
+.cards a{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0,205,172);
+    margin: 5px;
+}
+
+.top{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.top h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+
+.footercontent{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top img{
+    width: 100px;
+}
+
+.rightcontent{
+    width: 20%;
+    background-color: blue;
+    margin-right: 10px;
+}
+
+.rightcontent h2{
+    color: white;
+}
+
+.fa-customise{
+    color: red;
+}
