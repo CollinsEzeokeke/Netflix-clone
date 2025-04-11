@@ -1,12 +1,13 @@
+import Header from "../header";
+import Batch from "../Batch";
+import Footer from "../footer";
 
-const Home = () => {
-    return(
-        <>
-         <div>Hello</div>
-            hello world
-            
-        </>
-    )
+export default function Home() {
+  return (
+    <>
+      <Header />
+      <Batch />
+      <Footer />
+    </>
+  );
 }
-
-export default Home

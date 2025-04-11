@@ -5,10 +5,11 @@ import {Link} from 'react-router-dom'
 function Navs() {
   return (
     <div>
-        <Link to='/blog'><button>blog</button></Link>
-            <Link to='/chats'><button>chats</button></Link>
-            <Link to='/'><button>home</button></Link>
-            <Link to='/about'><button>about</button></Link>
+        <Link to='/'><button>Home</button></Link>
+        <Link to='/faq'><button>FAQ</button></Link>
+        <Link to='/jobs'><button>Jobs</button></Link>
+        <Link to='/privacy'><button>Privacy</button></Link>
+        <Link to='/my-list'><button>My List</button></Link>
     </div>
   )
 }
